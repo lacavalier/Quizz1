@@ -1,0 +1,112 @@
+.wrapper {
+  height: 400px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.player {
+  background: #eff3f5;
+  border-radius: 30px;
+  max-width: 380px;
+  padding: 25px;
+  width: 250px;
+  max-height: 400px;
+}
+.player .title1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2b3c58;
+  text-align: center;
+}
+.player .cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px 0;
+}
+.player .cover .cover_img.active {
+  -webkit-animation: rotateAnim 6s linear infinite;
+          animation: rotateAnim 6s linear infinite;
+}
+.player .song {
+  font-style: normal;
+  font-weight: bold;
+  line-height: 28px;
+  font-size: 20px;
+  color: #2b3c58;
+  text-align: center;
+}
+.player .progress_container {
+  background: #e4e9ed;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+  height: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.player .progress_container .progress {
+  background: #2b3c58;
+  border-radius: 5px;
+  height: 3px;
+}
+.player .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 184px;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.player .buttons .btn {
+  cursor: pointer;
+}
+
+@-webkit-keyframes rotateAnim {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateAnim {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}

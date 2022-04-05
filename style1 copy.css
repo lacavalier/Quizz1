@@ -1,0 +1,201 @@
+#body {
+  background-color: #dadada;
+  margin: 0;
+  padding: 0%;
+}
+
+#header {
+  position: fixed;
+  background: linear-gradient(rgb(2, 2, 10), rgb(145, 138, 138));
+  height: 100px;
+  width: 100vw;
+  z-index: 10;
+}
+
+#quiz {
+  display: flex;
+  margin-top: -350px;
+  margin-left: 18%;
+  position: absolute;
+  height: 500px;
+  width: 1000px;
+  border-radius: 15px 100px 15px 100px;
+  background-color: #153d52;
+}
+#divphoto {
+  top: 30px;
+  left: 40px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+
+  border-radius: 2%;
+}
+
+#photo {
+  position: absolute;
+  max-width: 300px;
+  max-height: 180px;
+  border-radius: 2%;
+  z-index: 10;
+}
+
+#photo:hover {
+  transform: scale(1.4);
+  transition: 0.2s;
+}
+
+#question {
+  font-size: 22pt;
+  color: white;
+  top: 40px;
+  max-height: 200px;
+  max-width: 500px;
+  margin-left: 350px;
+  border-radius: 2%;
+  font-family: Josefin Sans;
+  position: absolute;
+
+  padding-top: 35px;
+  text-align: center;
+}
+
+#button1 {
+  height: 180px;
+  width: 180px;
+  max-height: 180px;
+  max-width: 180px;
+  margin-top: 250px;
+  margin-left: 120px;
+  background: #96312e;
+  font-size: 22pt;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 3px rgb(77, 32, 32);
+  border-radius: 4%;
+  float: left;
+  margin-right: 1%;
+  font-family: Signika Negative;
+  border: 1px;
+}
+
+#button1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#button2 {
+  height: 180px;
+  width: 180px;
+  max-height: 180px;
+  max-width: 180px;
+  margin-top: 250px;
+  background: #d1675a;
+  font-size: 22pt;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 3px rgb(77, 32, 32);
+  border-radius: 4%;
+  float: left;
+  margin-right: 1%;
+  font-family: Signika Negative;
+  border: 1px;
+}
+
+#button2:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#button3 {
+  height: 180px;
+  width: 180px;
+  max-height: 180px;
+  max-width: 180px;
+  margin-top: 250px;
+  background: #ffbf6b;
+  font-size: 22pt;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 3px rgb(77, 32, 32);
+  border-radius: 4%;
+  float: left;
+  margin-right: 1%;
+  font-family: Signika Negative;
+  border: 1px;
+}
+
+#button3:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#button4 {
+  height: 180px;
+  width: 180px;
+  max-height: 180px;
+  max-width: 180px;
+  margin-top: 250px;
+  background: #398eb2;
+  font-size: 22pt;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 3px rgb(77, 32, 32);
+  border-radius: 4%;
+  float: left;
+  margin-right: 1%;
+  font-family: Signika Negative;
+  border: 1px;
+}
+
+#button4:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#sum {
+  margin-left: 120px;
+  top: 450px;
+  height: 35px;
+  width: 200px;
+  background-color: #398eb2;
+  color: white;
+  border-radius: 1%;
+  z-index: 4;
+  font-size: 16pt;
+  font-family: Signika Negative;
+  padding-top: 2px;
+  position: absolute;
+  padding-left: 20px;
+  box-shadow: 20px;
+  border-radius: 2%;
+}
+
+#streak {
+  float: left;
+  margin-left: 350px;
+  top: 450px;
+  height: 35px;
+  width: 170px;
+  background-color: #398eb2;
+  color: white;
+  border-radius: 2%;
+  z-index: 4;
+  font-size: 16pt;
+  font-family: Signika Negative;
+  padding-top: 2px;
+  position: absolute;
+  padding-left: 20px;
+  box-shadow: 20px;
+}
+
+#next {
+  top: 450px;
+  height: 35px;
+  width: 200px;
+  margin-left: 670px;
+  background-color: #398eb2;
+  color: white;
+  position: absolute;
+  z-index: 4;
+  font-size: 16pt;
+  font-family: Signika Negative;
+  padding-left: 0px;
+  box-shadow: 20px;
+}

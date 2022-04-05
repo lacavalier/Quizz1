@@ -1,0 +1,83 @@
+.wrapper {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.player {
+  background: #eff3f5;
+  border-radius: 30px;
+  max-width: 380px;
+  padding: 25px;
+  width: 250px;
+  max-height: 400px;
+  .title1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2b3c58;
+    text-align: center;
+  }
+  .cover {
+    display: flex;
+    justify-content: center;
+
+    margin: 25px 0;
+    .cover_img {
+      &.active {
+        animation: rotateAnim 6s linear infinite;
+      }
+    }
+  }
+  .song {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 20px;
+    color: #2b3c58;
+    text-align: center;
+  }
+  .progress_container {
+    background: #e4e9ed;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    height: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    .progress {
+      background: #2b3c58;
+      border-radius: 5px;
+      height: 3px;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 184px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    .btn {
+      cursor: pointer;
+    }
+  }
+}
+
+@keyframes rotateAnim {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
